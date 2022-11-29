@@ -9,11 +9,11 @@ Auth:
   #target: "commons-fileupload-1.4.jar"
 
 
-SCA:
-  language: "python-snyk"
+#SCA:
+#  language: "python-snyk"
 #   work_dir: /
 
-#Secret_Scan: True
+Secret_Scan: True
 
 #DAST:
  # type: "WEB" ## API, WEB, WEB-ADV
