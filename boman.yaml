@@ -3,14 +3,14 @@ Auth:
    customer_token: "5701949f-4512-4189-a1df-46783526dac9"
 
 
-#SAST:
-  #language: "python"
+SAST:
+  language: "python-snyk"
   # work_dir: "/home/boxuser/box/repo/django.nV/"
   #target: "commons-fileupload-1.4.jar"
 
 
-SCA:
-  language: "python-snyk"
+#SCA:
+#  language: "python-snyk"
 #   work_dir: /
 
 #Secret_Scan: True
